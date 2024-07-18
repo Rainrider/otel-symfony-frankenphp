@@ -1,7 +1,7 @@
 {
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
@@ -43,14 +43,20 @@
         "php": ">=8.1",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "nyholm/psr7": "^1.8",
+        "open-telemetry/exporter-otlp": "^1.0",
+        "open-telemetry/opentelemetry-auto-symfony": "^1.0",
+        "open-telemetry/opentelemetry-logger-monolog": "^1.0",
+        "open-telemetry/opentelemetry-propagation-traceresponse": "^0.0.3",
+        "open-telemetry/sdk": "^1.0",
+        "open-telemetry/transport-grpc": "^1.0",
         "symfony/console": "6.4.*",
         "symfony/dotenv": "6.4.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.4.*",
+        "symfony/http-client": "6.4.*",
         "symfony/runtime": "6.4.*",
         "symfony/yaml": "6.4.*"
-    },
-    "require-dev": {
     },
     "scripts": {
         "auto-scripts": {
